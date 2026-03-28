@@ -31,20 +31,6 @@ The scope is intentionally wide. Anything software-related is fair game:
 
 ---
 
-## Structure
-
-Each topic lives in its own directory. Inside, expect a mix of:
-
-```
-topic-name/
-├── README.md       # What I'm learning, why, and notes
-├── src/            # Implementation code
-└── notes.md        # Concepts, gotchas, and lessons learned
-```
-
-Notes are part of the work. Writing out what I learned — in my own words — is half the point.
-
----
 
 ## Rules
 
