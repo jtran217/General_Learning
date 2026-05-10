@@ -15,19 +15,19 @@ interface TimerProps {
     const isLow = remaining <= 10 && remaining > 0
   
     return (
-      <div className="relative flex items-center justify-center w-36 h-36">
+      <div className="relative flex items-center justify-center w-40 h-40 shrink-0 overflow-visible">
         <svg
-          className="absolute inset-0 -rotate-90"
-          width="144"
-          height="144"
-          viewBox="0 0 144 144"
+          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -rotate-90 overflow-visible"
+          width="160"
+          height="160"
+          viewBox="0 0 160 160"
         >
-          {/* Track */}
-          <circle cx="72" cy="72" r={radius} fill="none" stroke="#1f2937" strokeWidth="10" />
+          {/* Track — center shifted so round linecaps are not clipped */}
+          <circle cx="80" cy="80" r={radius} fill="none" stroke="var(--border)" strokeWidth="10" />
           {/* Progress ring */}
           <circle
-            cx="72"
-            cy="72"
+            cx="80"
+            cy="80"
             r={radius}
             fill="none"
             stroke={isLow ? '#ef4444' : '#6366f1'}

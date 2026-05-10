@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   color-scheme: light dark;
   --bg: #0f1216;
@@ -11,7 +13,8 @@
   line-height: 1.5;
   font-weight: 400;
   color: var(--text);
-  background-color: var(--bg);
+  /* Match shell/sidebar; --bg remains for inset panels/buttons */
+  background-color: var(--surface);
 }
 
 *,
@@ -42,6 +45,7 @@ button {
   display: grid;
   grid-template-columns: minmax(220px, 280px) 1fr;
   min-height: 100vh;
+  background: var(--surface);
 }
 
 .sidebar {

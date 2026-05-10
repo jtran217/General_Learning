@@ -1,6 +1,7 @@
 import type { DemoEntry } from "@/demos/types";
 import ExamplePlayground from "@/demos/ExamplePlayground";
 import TimerDemo from "@/demos/TimerDemo";
+import RecorderDemo from "@/demos/RecorderDemo";
 
 /**
  * Add a row here when you create a new demo component.
@@ -18,6 +19,12 @@ export const demos: DemoEntry[] = [
     title: "Timer Component",
     description: "Implementation of a timer",
     Component: TimerDemo,
+  },
+  {
+    id: "recorder",
+    title: "Recorder + Timer Component",
+    description: "Implementation of a Recorder function",
+    Component: RecorderDemo,
   },
 ];
 
