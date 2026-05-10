@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Builds
+dist/
+*.tsbuildinfo
+
+# Logs & caches
+npm-debug.log*
+.DS_Store
+.vite/
+
+# Env (if you add secrets later)
+.env
+.env.*.local
