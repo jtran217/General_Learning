@@ -16,25 +16,12 @@ AI is welcome as a **teacher and guide** — for explaining concepts, answering 
 
 ## What I'll cover
 
-The scope is intentionally wide. Anything software-related is fair game:
-
-- **Infrastructure & Caching** — Redis, Memcached, CDN patterns, cache invalidation strategies
-- **Networking & HTTP** — raw HTTP clients, REST, WebSockets, gRPC, request/response lifecycle
-- **Databases** — SQL internals, indexing, transactions, NoSQL patterns, query optimization
-- **System Design** — rate limiting, load balancing, sharding, message queues, event-driven architecture
-- **Testing** — unit, integration, and end-to-end testing strategies; mocking, fixtures, test design
-- **Auth & Security** — JWT, OAuth flows, session management, hashing, common attack vectors
-- **Concurrency** — threads, async/await, event loops, race conditions, locks
-- **Data Structures & Algorithms** — when it comes up practically, not as a grind
-- **DevOps Fundamentals** — Docker, CI/CD basics, environment management
-- **Language Internals** — whatever language I'm working in at the time
-
----
+Anything really. Trying to better understand code I've seen from AI in other projects and such.
 
 
 ## Rules
 
-1. **No AI-generated code.** I write it. I own it.
+1. **No AI-generated code.** I write it. I own it (EXCEPT FRONTEND, cause honestly I really dislike it.
 2. **AI is a resource**, not a crutch — same as a textbook or a Stack Overflow thread.
 3. **Working over polished.** A messy implementation I understand beats clean code I copied.
 4. **Document the struggle.** If something was hard to figure out, I write it down.
