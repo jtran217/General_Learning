@@ -10,7 +10,7 @@ This repo is where I sharpen the fundamentals. Every line of code here is writte
 
 The goal is breadth with depth: working through real software concepts by actually implementing them, not just reading about them.
 
-AI is welcome as a **teacher and guide** — for explaining concepts, answering questions, reviewing logic, and pointing me in the right direction. It is not here to write the code.
+AI is welcome as a **teacher and guide** — for explaining concepts, answering questions, reviewing logic, and pointing me in the right direction. It is not here to write the code (except the frontend :D ).
 
 ---
 
