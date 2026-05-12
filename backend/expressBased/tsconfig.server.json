@@ -6,13 +6,19 @@
         "strict": true,
         "esModuleInterop": true,
         "skipLibCheck": true,
-        "outDir": "dist/server",
-        "rootDir": "server",
+        "outDir": "dist",
+        "rootDir": ".",
         "lib": [
             "ES2022"
         ]
     },
     "include": [
-        "server"
+        "index.ts",
+        "db/**/*.ts",
+        "routes/**/*.ts"
+    ],
+    "exclude": [
+        "dist",
+        "node_modules"
     ]
 }
