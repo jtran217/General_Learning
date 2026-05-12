@@ -11,6 +11,10 @@ app.use(express.json())
 
 app.use('/api/recordings', recordingsRouter)
 
+app.get('/', (_req, res) => {
+    res.send("Hello Server")
+})
+
 app.listen(PORT, () => {
     console.log("Dummy express server up and running")
 })
